@@ -58,3 +58,17 @@ header, .navbar{
 .carousel-indicators .active{
     background-color: #bc6c25;
 }
+
+/* Cards conheça */
+
+#conheça, h2{
+    color: rgb(31, 31, 31);
+    font-family: 'Roboto', sans-serif;
+    font-size: 34px;
+    height: 100px;    
+}
+
+.color1{
+    color: #09c203;
+    font-weight: bold;
+}
