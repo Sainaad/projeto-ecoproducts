@@ -1,3 +1,60 @@
-h1{
-    color: red;
+/* Estilos Gerais */
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.row{
+    margin: 0;
+}
+
+.container{
+    padding: 70px 0;
+}
+
+p, li{
+    color: #fefae0;
+    font-size: 14px;
+}
+
+/* Barra de Navegação */
+
+header, .navbar{
+    background-color: #fefae0;
+    height: 60px;
+}
+
+#nav-container{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo{
+    width: 180px;
+}
+
+#navbar-links a{
+    color: #dda15e;
+}
+
+#navbar-links a:hover{
+    color: #bc6c25;
+}
+
+.nav-expand-lg .nav-nav .nav-link{
+    padding: 1 rem .8rem;
+}
+
+/* Barra de Navegação */
+
+.container-fluid{
+    padding: 0;
+}
+
+#mainSlider .carousel-inner, #mainSlider .carousel-item{
+    height: 90vh;
+}
+
+.carousel-indicators .active{
+    background-color: #bc6c25;
 }
